@@ -1,0 +1,163 @@
+[INFO][2016-02-23 17:06:42,394][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5abce07: startup date [Tue Feb 23 17:06:42 CST 2016]; root of context hierarchy
+[INFO][2016-02-23 17:06:42,445][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[INFO][2016-02-23 17:06:42,761][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [config.properties]
+[WARN][2016-02-23 17:06:42,789][org.springframework.context.support.ClassPathXmlApplicationContext]Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userDao': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire method: public void com.cn.dao.impl.UserDaoImpl.setSessionFactory(org.hibernate.SessionFactory); nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.hibernate.SessionFactory] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}
+[INFO][2016-02-23 17:15:41,630][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@52633079: startup date [Tue Feb 23 17:15:41 CST 2016]; root of context hierarchy
+[INFO][2016-02-23 17:15:41,673][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[INFO][2016-02-23 17:15:41,942][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [config.properties]
+[WARN][2016-02-23 17:15:41,970][org.springframework.context.support.ClassPathXmlApplicationContext]Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userDao': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire method: public void com.cn.dao.impl.UserDaoImpl.setSessionFactory(org.hibernate.SessionFactory); nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.hibernate.SessionFactory] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {}
+[INFO][2016-02-23 17:45:27,653][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@26ae11f6: startup date [Tue Feb 23 17:45:27 CST 2016]; root of context hierarchy
+[INFO][2016-02-23 17:45:27,695][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml,classpath:spring-hibernate.xml]
+[INFO][2016-02-23 17:47:50,053][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@26ae11f6: startup date [Tue Feb 23 17:47:50 CST 2016]; root of context hierarchy
+[INFO][2016-02-23 17:47:50,091][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml,classpath:spring-hibernate.xml]
+[INFO][2016-02-23 17:51:33,949][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@664ae259: startup date [Tue Feb 23 17:51:33 CST 2016]; root of context hierarchy
+[INFO][2016-02-23 17:51:33,994][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml,classpath:spring-hibernate.xml]
+[INFO][2016-02-23 17:53:10,578][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6e1d4150: startup date [Tue Feb 23 17:53:10 CST 2016]; root of context hierarchy
+[INFO][2016-02-23 17:53:10,621][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml,classpath:spring-hibernate.xml]
+[INFO][2016-02-23 17:54:45,527][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@42ab23aa: startup date [Tue Feb 23 17:54:45 CST 2016]; root of context hierarchy
+[INFO][2016-02-23 17:54:45,572][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[INFO][2016-02-23 17:54:45,764][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-hibernate.xml]
+[INFO][2016-02-23 17:54:45,960][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [config.properties]
+[ERROR][2016-02-23 17:54:46,118][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2016-02-23 17:54:46,207][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2016-02-23 17:54:46,486][org.hibernate.Version]HHH000412: Hibernate Core {5.1.0.Final}
+[INFO][2016-02-23 17:54:46,487][org.hibernate.cfg.Environment]HHH000206: hibernate.properties not found
+[INFO][2016-02-23 17:54:46,488][org.hibernate.cfg.Environment]HHH000021: Bytecode provider name : javassist
+[INFO][2016-02-23 17:54:46,527][org.hibernate.annotations.common.Version]HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[INFO][2016-02-23 17:54:46,805][org.hibernate.dialect.Dialect]HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO][2016-02-23 17:54:47,595][org.springframework.orm.hibernate5.HibernateTransactionManager]Using DataSource [{
+	CreateTime:"2016-02-23 17:54:46",
+	ActiveCount:0,
+	PoolingCount:1,
+	CreateCount:1,
+	DestroyCount:0,
+	CloseCount:2,
+	ConnectCount:2,
+	Connections:[
+		{ID:246454889, ConnectTime:"2016-02-23 17:54:46", UseCount:2, LastActiveTime:"2016-02-23 17:54:47"}
+	]
+}] of Hibernate SessionFactory for HibernateTransactionManager
+[INFO][2016-02-23 18:18:23,952][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@42ab23aa: startup date [Tue Feb 23 18:18:23 CST 2016]; root of context hierarchy
+[INFO][2016-02-23 18:18:23,993][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[INFO][2016-02-23 18:18:24,186][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-hibernate.xml]
+[INFO][2016-02-23 18:18:24,359][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [config.properties]
+[ERROR][2016-02-23 18:18:24,531][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2016-02-23 18:18:24,697][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2016-02-23 18:18:25,083][org.hibernate.Version]HHH000412: Hibernate Core {5.1.0.Final}
+[INFO][2016-02-23 18:18:25,084][org.hibernate.cfg.Environment]HHH000206: hibernate.properties not found
+[INFO][2016-02-23 18:18:25,085][org.hibernate.cfg.Environment]HHH000021: Bytecode provider name : javassist
+[INFO][2016-02-23 18:18:25,146][org.hibernate.annotations.common.Version]HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[INFO][2016-02-23 18:18:25,631][org.hibernate.dialect.Dialect]HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO][2016-02-23 18:18:26,287][org.springframework.orm.hibernate5.HibernateTransactionManager]Using DataSource [{
+	CreateTime:"2016-02-23 18:18:24",
+	ActiveCount:0,
+	PoolingCount:1,
+	CreateCount:1,
+	DestroyCount:0,
+	CloseCount:2,
+	ConnectCount:2,
+	Connections:[
+		{ID:1818848007, ConnectTime:"2016-02-23 18:18:25", UseCount:2, LastActiveTime:"2016-02-23 18:18:26"}
+	]
+}] of Hibernate SessionFactory for HibernateTransactionManager
+[WARN][2016-02-23 18:18:26,552][org.hibernate.engine.jdbc.spi.SqlExceptionHelper]SQL Error: 1062, SQLState: 23000
+[ERROR][2016-02-23 18:18:26,552][org.hibernate.engine.jdbc.spi.SqlExceptionHelper]Duplicate entry 'aaa' for key 'UKna5yn63d5kj7acwdo4po4ukpn'
+[INFO][2016-02-23 18:18:26,553][org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl]HHH000010: On release of batch it still contained JDBC statements
+[ERROR][2016-02-23 18:18:26,554][org.hibernate.internal.SessionImpl]HHH000346: Error during managed flush [could not execute statement]
+[INFO][2016-02-23 18:23:15,446][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6e1d4150: startup date [Tue Feb 23 18:23:15 CST 2016]; root of context hierarchy
+[INFO][2016-02-23 18:23:15,488][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[INFO][2016-02-23 18:23:15,671][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-hibernate.xml]
+[INFO][2016-02-23 18:23:15,819][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [config.properties]
+[ERROR][2016-02-23 18:23:15,948][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2016-02-23 18:23:16,049][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2016-02-23 18:23:16,151][org.hibernate.Version]HHH000412: Hibernate Core {5.1.0.Final}
+[INFO][2016-02-23 18:23:16,153][org.hibernate.cfg.Environment]HHH000206: hibernate.properties not found
+[INFO][2016-02-23 18:23:16,154][org.hibernate.cfg.Environment]HHH000021: Bytecode provider name : javassist
+[INFO][2016-02-23 18:23:16,194][org.hibernate.annotations.common.Version]HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[INFO][2016-02-23 18:23:16,452][org.hibernate.dialect.Dialect]HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO][2016-02-23 18:23:17,222][org.springframework.orm.hibernate5.HibernateTransactionManager]Using DataSource [{
+	CreateTime:"2016-02-23 18:23:15",
+	ActiveCount:0,
+	PoolingCount:1,
+	CreateCount:1,
+	DestroyCount:0,
+	CloseCount:2,
+	ConnectCount:2,
+	Connections:[
+		{ID:2122460571, ConnectTime:"2016-02-23 18:23:16", UseCount:2, LastActiveTime:"2016-02-23 18:23:17"}
+	]
+}] of Hibernate SessionFactory for HibernateTransactionManager
+[INFO][2016-02-23 18:27:04,071][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3051c45f: startup date [Tue Feb 23 18:27:04 CST 2016]; root of context hierarchy
+[INFO][2016-02-23 18:27:04,113][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[INFO][2016-02-23 18:27:04,325][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-hibernate.xml]
+[INFO][2016-02-23 18:27:04,480][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [config.properties]
+[ERROR][2016-02-23 18:27:04,611][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2016-02-23 18:27:04,725][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2016-02-23 18:27:04,825][org.hibernate.Version]HHH000412: Hibernate Core {5.1.0.Final}
+[INFO][2016-02-23 18:27:04,826][org.hibernate.cfg.Environment]HHH000206: hibernate.properties not found
+[INFO][2016-02-23 18:27:04,827][org.hibernate.cfg.Environment]HHH000021: Bytecode provider name : javassist
+[INFO][2016-02-23 18:27:04,865][org.hibernate.annotations.common.Version]HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[INFO][2016-02-23 18:27:05,131][org.hibernate.dialect.Dialect]HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO][2016-02-23 18:27:05,873][org.springframework.orm.hibernate5.HibernateTransactionManager]Using DataSource [{
+	CreateTime:"2016-02-23 18:27:04",
+	ActiveCount:0,
+	PoolingCount:1,
+	CreateCount:1,
+	DestroyCount:0,
+	CloseCount:2,
+	ConnectCount:2,
+	Connections:[
+		{ID:2064951362, ConnectTime:"2016-02-23 18:27:05", UseCount:2, LastActiveTime:"2016-02-23 18:27:05"}
+	]
+}] of Hibernate SessionFactory for HibernateTransactionManager
+[INFO][2016-02-24 08:47:56,066][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@483351c1: startup date [Wed Feb 24 08:47:56 CST 2016]; root of context hierarchy
+[INFO][2016-02-24 08:47:56,108][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[INFO][2016-02-24 08:47:56,289][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-hibernate.xml]
+[INFO][2016-02-24 08:47:56,448][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [config.properties]
+[ERROR][2016-02-24 08:47:56,569][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2016-02-24 08:47:56,661][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2016-02-24 08:47:56,762][org.hibernate.Version]HHH000412: Hibernate Core {5.1.0.Final}
+[INFO][2016-02-24 08:47:56,763][org.hibernate.cfg.Environment]HHH000206: hibernate.properties not found
+[INFO][2016-02-24 08:47:56,764][org.hibernate.cfg.Environment]HHH000021: Bytecode provider name : javassist
+[INFO][2016-02-24 08:47:56,801][org.hibernate.annotations.common.Version]HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[INFO][2016-02-24 08:47:57,065][org.hibernate.dialect.Dialect]HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO][2016-02-24 08:47:57,840][org.springframework.orm.hibernate5.HibernateTransactionManager]Using DataSource [{
+	CreateTime:"2016-02-24 08:47:56",
+	ActiveCount:0,
+	PoolingCount:1,
+	CreateCount:1,
+	DestroyCount:0,
+	CloseCount:2,
+	ConnectCount:2,
+	Connections:[
+		{ID:753774014, ConnectTime:"2016-02-24 08:47:57", UseCount:2, LastActiveTime:"2016-02-24 08:47:57"}
+	]
+}] of Hibernate SessionFactory for HibernateTransactionManager
+[INFO][2016-02-24 08:50:48,000][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7f261b7d: startup date [Wed Feb 24 08:50:47 CST 2016]; root of context hierarchy
+[INFO][2016-02-24 08:50:48,038][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[INFO][2016-02-24 08:50:48,216][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-hibernate.xml]
+[INFO][2016-02-24 08:50:48,358][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [config.properties]
+[ERROR][2016-02-24 08:50:48,478][com.alibaba.druid.pool.DruidAbstractDataSource]maxIdle is deprecated
+[INFO][2016-02-24 08:50:48,584][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO][2016-02-24 08:50:48,681][org.hibernate.Version]HHH000412: Hibernate Core {5.1.0.Final}
+[INFO][2016-02-24 08:50:48,682][org.hibernate.cfg.Environment]HHH000206: hibernate.properties not found
+[INFO][2016-02-24 08:50:48,683][org.hibernate.cfg.Environment]HHH000021: Bytecode provider name : javassist
+[INFO][2016-02-24 08:50:48,720][org.hibernate.annotations.common.Version]HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[INFO][2016-02-24 08:50:48,979][org.hibernate.dialect.Dialect]HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO][2016-02-24 08:50:49,790][org.springframework.orm.hibernate5.HibernateTransactionManager]Using DataSource [{
+	CreateTime:"2016-02-24 08:50:48",
+	ActiveCount:0,
+	PoolingCount:1,
+	CreateCount:1,
+	DestroyCount:0,
+	CloseCount:2,
+	ConnectCount:2,
+	Connections:[
+		{ID:2015155493, ConnectTime:"2016-02-24 08:50:48", UseCount:2, LastActiveTime:"2016-02-24 08:50:49"}
+	]
+}] of Hibernate SessionFactory for HibernateTransactionManager
+[INFO][2016-02-24 09:40:08,176][org.springframework.context.support.ClassPathXmlApplicationContext]Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@213c7aef: startup date [Wed Feb 24 09:40:08 CST 2016]; root of context hierarchy
+[INFO][2016-02-24 09:40:08,221][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring.xml]
+[INFO][2016-02-24 09:40:08,408][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-hibernate.xml]
+[INFO][2016-02-24 09:40:08,561][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [config.properties]
+[WARN][2016-02-24 09:40:08,608][org.springframework.context.support.ClassPathXmlApplicationContext]Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userDao': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire method: public void com.cn.dao.impl.UserDaoImpl.setSessionFactory(org.hibernate.SessionFactory); nested exception is java.lang.NoClassDefFoundError: org/hibernate/boot/model/naming/ImplicitNamingStrategy
